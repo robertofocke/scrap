@@ -32,8 +32,6 @@ def navega(pag):
 				pass
 
 while (ii<=int(profundidad)):	
-	print ("Nivel:"+str(ii))
-	navega(URL)
 	for sitio in listaSitio:
 		navega(sitio)
 	ii=ii+1
